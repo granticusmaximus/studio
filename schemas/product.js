@@ -14,19 +14,14 @@ export default {
       type: 'datetime',
     },
     {
-      name: 'price',
-      type: 'number',
-      title: 'Price',
+      name: 'image',
+      type: 'image',
+      title: 'Image',
     },
     {
       name: 'description',
       type: 'text',
       title: 'Description',
-    },
-    {
-      name: 'image',
-      type: 'image',
-      title: 'Image',
     },
     {
       name: 'slug',
@@ -36,6 +31,11 @@ export default {
         source: 'title',
         maxLength: 96,
       },
+    },
+    {
+      name: 'price',
+      type: 'number',
+      title: 'Price',
     },
   ],
 }
